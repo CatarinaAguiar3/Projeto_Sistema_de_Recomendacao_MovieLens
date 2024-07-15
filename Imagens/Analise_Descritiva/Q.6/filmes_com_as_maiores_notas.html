@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Os 10 filmes com as maiores notas</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <style>
+        #container {
+            width: 100%;
+            height: 100%;
+            max-width: 1000px;
+            max-height: 750px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <script>
+        var data = [{"name": "Shawshank Redemption, The (1994)", "y": 3.89}, {"name": "Pulp Fiction (1994)", "y": 3.65}, {"name": "Matrix, The (1999)", "y": 3.63}, {"name": "Godfather, The (1972)", "y": 3.62}, {"name": "Schindler's List (1993)", "y": 3.58}, {"name": "Silence of the Lambs, The (1991)", "y": 3.58}, {"name": "Forrest Gump (1994)", "y": 3.57}, {"name": "Fight Club (1999)", "y": 3.55}, {"name": "Usual Suspects, The (1995)", "y": 3.54}, {"name": "Star Wars: Episode IV - A New Hope (1977)", "y": 3.53}];
+
+        Highcharts.chart('container', {
+            chart: {
+                type: 'bar',
+                events: {
+                    load: function () {
+                        var chart = this;
+                        setTimeout(function () {
+                            chart.reflow();
+                        }, 0);
+                    }
+                }
+            },
+            title: {
+                text: 'Os 10 filmes com as maiores notas',
+                align: 'center'
+            },
+            xAxis: {
+                categories: ["Shawshank Redemption, The (1994)", "Pulp Fiction (1994)", "Matrix, The (1999)", "Godfather, The (1972)", "Schindler's List (1993)", "Silence of the Lambs, The (1991)", "Forrest Gump (1994)", "Fight Club (1999)", "Usual Suspects, The (1995)", "Star Wars: Episode IV - A New Hope (1977)"],
+                title: {
+                    text: 'Título do Filme'
+                },
+                labels: {
+                    style: {
+                        fontSize: '14px'
+                    }
+                }
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: 'rating médio ponderado',
+                    align: 'high'
+                },
+                labels: {
+                    enabled: true,  // Habilitar os rótulos do eixo Y
+                    style: {
+                        fontSize: '12px'  // Ajustar o tamanho da fonte dos rótulos do eixo Y
+                    },
+                    formatter: function () {
+                        return this.value.toFixed(1);  // Formatar para uma casa decimal
+                    }
+                }
+            },
+            plotOptions: {
+                bar: {
+                    dataLabels: {
+                        enabled: true
+                    },
+                    pointWidth: 25  // Ajuste aqui a largura das barras conforme desejado
+                }
+            },
+            legend: {
+                enabled: false
+            },
+            exporting: {
+                enabled: false
+            },
+            credits: {
+                enabled: false
+            },
+            series: [{
+                name: 'rating médio ponderado',
+                data: data,
+                color: '#046D86'
+            }]
+        });
+    </script>
+</body>
+</html>
