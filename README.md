@@ -10,6 +10,7 @@
 - **Modelagem usando KNN**: [notebook](https://github.com/CatarinaAguiar3/Projeto_Sistema_de_Recomendacao_MovieLens/blob/main/Notebooks/5.Modelagem_KNN_v4.1.ipynb) e [página html](https://catarinaaguiar3.github.io/Projeto_Sistema_de_Recomendacao_MovieLens/HTML/5.Modelagem_KNN_v4.0.html)
 
 <br>
+
 **Em breve...** <br>
 - **Modelagem usando FP-Growth**: [notebook]() e [página html]() <br>
 - **Modelagem usando SVD**: [notebook]() e [página html]() <br>
