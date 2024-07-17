@@ -12,5 +12,5 @@
 <br>
 
 **Em breve...** <br>
-- **Modelagem usando FP-Growth**: [notebook]() e [página html]() <br>
-- **Modelagem usando SVD**: [notebook]() e [página html]() <br>
+- **Modelagem usando FP-Growth**: [notebook](#) e [página html](#) <br>
+- **Modelagem usando SVD**: [notebook](#) e [página html](#) <br>
