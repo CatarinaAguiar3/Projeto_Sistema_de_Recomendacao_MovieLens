@@ -11,6 +11,7 @@
 - **Modelagem usando FP-Growth**: [notebook](https://github.com/CatarinaAguiar3/Projeto_Sistema_de_Recomendacao_MovieLens/blob/main/Notebooks/5.Modelagem_FP_Growth_v4.7.ipynb?short_path=86237e5) e [página html]
 
 <br>
+
 **Em breve...** <br>
 (https://catarinaaguiar3.github.io/Projeto_Sistema_de_Recomendacao_MovieLens/HTML/5.Modelagem_FP_Growth_v4.7.html) <br>
 - **Modelagem usando SVD**: [notebook](#) e [página html](#) <br>
