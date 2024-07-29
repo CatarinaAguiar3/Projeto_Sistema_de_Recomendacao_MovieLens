@@ -1,4 +1,4 @@
-# Projeto Sistema de Recomendação MovieLens
+<img src= "https://github.com/CatarinaAguiar3/Projeto_Sistema_de_Recomendacao_MovieLens/blob/main/Imagens/Titulos/2.png?raw=true" width=100% > 
 
 ### Link dos arquivos
 - **Amostragem**: [notebook](https://github.com/CatarinaAguiar3/Projeto_Sistema_de_Recomendacao_MovieLens/blob/main/Notebooks/0.Amostragem_v2.1.ipynb) e [página html](https://catarinaaguiar3.github.io/Projeto_Sistema_de_Recomendacao_MovieLens/HTML/0.Amostragem_v2.0.html) <br>
@@ -11,6 +11,9 @@
 - **Modelagem usando FP-Growth**: [notebook](https://github.com/CatarinaAguiar3/Projeto_Sistema_de_Recomendacao_MovieLens/blob/main/Notebooks/5.Modelagem_FP_Growth_v4.7.ipynb?short_path=86237e5) e [página html](https://catarinaaguiar3.github.io/Projeto_Sistema_de_Recomendacao_MovieLens/HTML/5.Modelagem_FP_Growth_v4.7.html) <br>
 
 <br>
+
+<img src="https://github.com/CatarinaAguiar3/Projeto_Sistema_de_Recomendacao_MovieLens/blob/main/Imagens/Titulos/introducao_v1.png?raw=true" width=100%>
+
 
 **Em breve...** <br>
 - **Modelagem usando SVD**: [notebook](#) e [página html](#) <br>
