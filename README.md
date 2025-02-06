@@ -75,19 +75,12 @@ dos usuários. Este foi o menor resultado.
 O KNN é um algoritmo de classificação bem simples, ele dá a recomendação de filme com base na 
 distância dos dados. Ao considerarmos 5 recomendações (n), o KNN acerta em 32% dos casos.
 #### SVD (Decomposição de valor singular)
-O terceiro algoritmo testado é o SVD (Decomposição de valor singular). A decomposição de valor 
-singular (SVD) é um método de fatoração de matrizes. De maneira simplificada, a fatoração de 
-matrizes é como se pegasse o número 60 e fatorássemos em 3 x 4 x 5. <br>
-Depois que o SVD fatora (decompõem) a matriz em 3 partes, ele retira os dados que não acrescentam 
-informação para tornar a análise mais eficiente. <br>
-Uma analogia para entender essa parte é pensar em um escultor trabalhando em um bloco de mármore.
-Ele remove pedaços de mármore que não contribuem para a escultura final. Da mesma forma, o SVD 
-remove dados desnecessários, deixando apenas as informações mais relevantes. Mesmo com essas 
-remoções, a essência da matriz original é preservada, assim como a escultura ainda é um pedaço de 
-mármore. <br>
-Para 5 recomendações, o precisão (precision) do SVD foi de 54%. Se considerássemos 10 
-recomendações, a precisão do SVD chega a 60%. <br>
-Este foi o algoritmo com o melhor resultado.
+O terceiro algoritmo testado é o SVD (Decomposição de valor singular). Ele é um método de fatoração de matrizes. De maneira simplificada, a fatoração de matrizes é como se pegássemos o número 60 e fatorássemos em 3 x 4 x 5. 
+   Depois que o SVD faz a decomposição (fatoração), ele reduz o tamanho das matrizes para diminuir a complexidade computacional.
+  Uma analogia para isso, seria pensarmos em um pão de forma, tem pessoas que não gostam da casca e por isso, a retiram antes de preparar o sanduíche. Mesmo a gente retirando a casca, o resultado continua o mesmo.
+   Ou seja, mesmo o SVD cortando as matrizes, o resultado final é o mesmo.  
+  O precision do SVD foi de 54%, este foi o melhor resultado alcançado. Se considerássemos 10 recomendações, o precision do SVD chegaria a 60%.
+
 
 ## Referência de desempenho
 Para termos uma noção se os resultados foram bons ou não, pesquisamos na literatura e encontramos 
