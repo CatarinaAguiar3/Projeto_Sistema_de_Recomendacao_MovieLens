@@ -96,6 +96,10 @@ uma precisão (precision) entre 25% e 87%, para este conjunto de dados: [(PATRA;
 <mark><b>Portanto, concluímos que os resultados alcançados no projeto foram bons!</b></mark>
 
 # Referências:
+AIREN, S.; AGRAWAL, J. Movie Recommender System Using K-Nearest Neighbors 
+Variants. **National Academy Science Letters**, 5 maio 2021.Disponível em: 
+https://link.springer.com/article/10.1007/s40009-021-01051-0
+<br><br>
 BAHI, A et al. Personalized movie recommendation prediction using reinforcement learning. 
 Em: **Communications in Computer and Information Science**. Cham: Springer Nature Switzerland, 
 2023. p. 46–56. Disponível em: https://link.springer.com/chapter/10.1007/978-3-031-43838-7_4
