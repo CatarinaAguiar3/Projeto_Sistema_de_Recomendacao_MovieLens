@@ -21,4 +21,4 @@
 </picture>
 
 **Em breve...** <br>
-- **Modelagem usando SVD**: [notebook](#) e [página html](#) <br>
+- **Modelagem usando SVD**: [notebook](https://github.com/CatarinaAguiar3/Projeto_Sistema_de_Recomendacao_MovieLens/blob/25a629c173beebb46d044ff3d4a7e0dc157c0d17/Notebooks/6.Modelagem_SVD_v1.3.ipynb) e [página html](https://catarinaaguiar3.github.io/Projeto_Sistema_de_Recomendacao_MovieLens/HTML/6.Modelagem_SVD_v1.3.html) <br>
